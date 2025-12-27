@@ -636,16 +636,16 @@ footer {
 
 @media (max-width: 575px) {
     header {
-        height: 30px;
+        height: 40px;
     }
     .logo-container {
-        height: 30px;
+        height: 40px;
     }
     .logo, .logo-white {
         position: absolute;
-        height: 27px;
+        height: 30px;
         top: 50%;
-        transform: translate(0%, -50%);
+        transform: translate(0%, -60%);
     }
     nav li {
         margin-left: 0.5rem;
