@@ -635,4 +635,22 @@ footer {
 }
 
 @media (max-width: 575px) {
+    header {
+        height: 30px;
+    }
+    .logo-container {
+        height: 30px;
+    }
+    .logo, .logo-white {
+        position: absolute;
+        height: 27px;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+    nav li {
+        margin-left: 0.5rem;
+    }
+    nav a {
+        font-size: 0.55rem;
+    }
 }
